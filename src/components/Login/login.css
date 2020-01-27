@@ -1,0 +1,143 @@
+.vertical-alignment-helper {
+    height: 100vh !important;
+    background-image: url("/assets/images/background.jpg");
+}
+
+a:focus,
+a:hover {
+    color: #FFD401;
+    text-decoration: none;
+    outline: none !important;
+}
+
+.btn {
+    font-size: 10px;
+    padding: 0.3rem;
+    white-space: normal;
+}
+
+.m0 {
+    margin: 0;
+}
+
+.p0 {
+    padding: 0;
+}
+
+.p-t-50 {
+    padding-top: 50px;
+}
+
+.img-responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+.top-right {
+    position: absolute;
+    right: 5px;
+    top: 0;
+}
+
+/* Form CSS */
+.form-control {
+    padding: 15px 10px;
+    font-size: 14px;
+    color: #1c1c1c;
+    background-color: #eae8e2;
+    border: 0;
+    height: 45px;
+    border-radius: 0;
+}
+
+.btn.btn-save,
+.btn-save {
+    background: transparent url('/assets/images/cta-yellow.svg') center center no-repeat;
+    /*min-width: 201px;*/
+    min-height: 47px;
+    font-size: 24px;
+    color: #000;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    font-weight: 600;
+    width: auto;
+    background-size: cover;
+    border:none;
+}
+
+.btn-save:focus,
+.btn-save:hover {
+    text-decoration: none;
+    background-image: url('/assets/images/cta-white.svg');
+}
+
+.modal-dialog {
+    width: 450px !important;
+    margin: 0 auto !important;
+    display: flex !important;
+    align-items: center !important;
+    height: 100vh !important;
+}
+
+.modal-dialog .logo {
+    background: url('/assets/images/logo-gomex.svg') no-repeat, none;
+    background-size: contain;
+    display: block;
+    max-width: 110px;
+    height: 110px;
+    width: 110px;
+    position: absolute;
+    top: -50px;
+    margin: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.login-form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.modal-body {
+    padding-top: 60px !important;
+}
+.login-form .panel-body {
+    margin-top: 15px;
+}
+.modal-dialog .login-form h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #ffd401;
+    margin-bottom: 0;
+}
+.login-content {
+    margin: 0 35px;
+}
+.login-content .form-group .input-group input {
+    color: #fff;
+    height: 45px;
+    background-color: #000;
+    border: 1px solid #000;
+    padding-left: 40px;
+}
+.login-content .form-group{
+    margin-bottom: 1rem;
+}
+
+.save-btn{
+    display: flex;
+    justify-content: center;
+    margin: 25px auto 0;
+}
+.vertical-alignment-helper .vertical-align-center .modal-content{
+    background-color: #fff;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 5px;
+    position: relative;
+}
